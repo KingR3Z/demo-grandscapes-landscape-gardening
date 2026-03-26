@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "5",
 
   // Services
   services: [
@@ -79,9 +79,11 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Matt & Dini", rating: 5, text: "James has completed several jobs for us over the past few years, including our driveway, some patio work around the house and redoing our garden. …  ", date: "7 months ago" },
+    { name: "Sheila Granger", rating: 5, text: "James has completed various jobs for me over the last few years and I have always been very pleased with the work he has done.  He leaves the site neat and tidy and checks that you are satisfied with the end result.  If you have any gardening require", date: "2 years ago" },
+    { name: "David Mott", rating: 5, text: "We used Grandscapes for some landscaping work in our garden last summer and were so pleased with the results that we got James back to do some fencing work that needed doing. The work was completed to the highest standard at a very reasonable price,", date: "4 years ago" },
+    { name: "Wendy Ager", rating: 5, text: "How refreshing....to get a local person round promptly who quotes a reasonable price, then arranges and turns up and does the job as requested without any fuss and leaves your garden/home clean and tidy. Thank you James! We had steps built to access", date: "6 years ago" },
+    { name: "Bee Cee", rating: 5, text: "NegativeQuality ", date: "6 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
